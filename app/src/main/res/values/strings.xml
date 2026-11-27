@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SubscriptionApp</string>
+    <string name="add_new_subscription">Add New Subscription</string>
+    <string name="service_name_hint">Service Name (e.g. Netflix)</string>
+    <string name="price_hint">Price (SAR)</string>
+    <string name="billing_cycle">Billing Cycle</string>
+    <string name="save_subscription">Save Subscription</string>
+    <string name="please_fill_all_fields">Please fill all fields</string>
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="error_occurred">Error: %s</string>
+    <string name="delete">Delete</string>
+    <string name="total_monthly">Total Monthly: SAR %.2f</string>
+    <string name="no_subscriptions">No subscriptions yet</string>
+</resources>
