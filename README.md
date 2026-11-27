@@ -32,8 +32,11 @@ An Android application developed in **Java** using **Android Studio** and **SQLi
 ## Tech Stack & Project Structure
 
 - **Core Stack:** Java, Android Studio, XML Layouts, RecyclerView, SQLite (`SQLiteOpenHelper`)
-- `app/src/main/java/com/example/subscriptionapp/DatabaseHelper.java`: Manages SQLite database creation and CRUD operations (`insert`, `read`, `update`, `delete`).
+- `app/src/main/java/com/example/subscriptionapp/MainActivity.java`: Manages the main screen, monthly cost summary, and subscriptions list.
 - `app/src/main/java/com/example/subscriptionapp/AddSubscriptionActivity.java`: Handles adding new subscription entries.
+- `app/src/main/java/com/example/subscriptionapp/DatabaseHelper.java`: Manages SQLite database creation and CRUD operations (`insert`, `read`, `update`, `delete`).
+- `app/src/main/java/com/example/subscriptionapp/Subscription.java`: Data model representing a subscription entry.
+- `app/src/main/java/com/example/subscriptionapp/SubscriptionAdapter.java`: Binds subscription items to the `RecyclerView`.
 - `app/src/main/res/layout/`: Contains XML layout files for activities and list items.
 
 <details>
